@@ -1,0 +1,155 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 80vw;
+    height: 85vh;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 10%;
+    padding-left: 136px;
+    padding: 60px;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, .16);
+    width: 41%;
+    height: 617px;
+    margin-left: 140px;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 10%;
+    width: 350px;
+    margin-left: -109px;
+}
+
+h1 {
+    color: #5D5D7D;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+
+p {
+    color: #5D5D7D;
+    width: 540px;
+    font-size: 17px;
+    line-height: 44px;
+    opacity: .6;
+    margin: 15px 40px 0;
+    /*Quando colamos apenas 2 valores, ele vai aplicar o 1º em cima e embaixo. O outro dos lados*/
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 150px;
+    width: 200px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #9499EA;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 10px 24px rgba (148, 153, 234, 0.0979959);
+    line-height: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a {
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+header {
+    margin: 24px 0 0 85px;
+}
+
+@media screen and (max-width: 900px) {     /*no final do css, insere @media, depois, proceder com o que vai mudar */
+    .container-left {
+        width: 124%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 50px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 330px) {
+        .container-left {
+            height: 70%;
+        }
+}

@@ -1,9 +1,7 @@
-# Projeto-Easy-Shopping
-Esse foi meu primeiro aprendizado com projeto resposivo no DevClub.
+<h1>Projeto Easy Shopping</h1>
+<h2>Esse foi meu primeiro aprendizado com projeto resposivo no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
 
 
 Tecnologias usadas:
 
-
-![html css](https://github.com/boscopontes/Projeto-Easy-Shopping/assets/141064695/c907bf49-2a14-4c6f-a14a-cfe6acfa8693)
 

@@ -1,9 +1,10 @@
 * {
-    font-family: 'Oswald', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    color: #5D5D7D;
 }
 
 .wrapper {
@@ -14,8 +15,8 @@
 .container-left {
     display: inline-block;
     width: 60%;
-    margin-top: 10%;
     padding-left: 136px;
+    margin-top: 10%;
     padding: 60px;
 }
 
@@ -35,36 +36,34 @@ img {
     margin-left: -109px;
 }
 
-h1 {
-    color: #5D5D7D;
+h1 { 
     font-size: 60px;
     line-height: 80px;
-    text-align: center;
+    text-align: center; 
 }
 
 p {
-    color: #5D5D7D;
-    width: 540px;
     font-size: 17px;
     line-height: 44px;
-    opacity: .6;
+    opacity: 0.6;
     margin: 15px 40px 0;
+    width: 540px;
     /*Quando colamos apenas 2 valores, ele vai aplicar o 1º em cima e embaixo. O outro dos lados*/
 }
 
 button {
-    color: #FFF;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 150px;
     width: 200px;
     height: 58px;
     flex-shrink: 0;
     background: #9499EA;
-    border-radius: 30px;
-    border: none;
     box-shadow: 0px 10px 24px rgba (148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    margin-left: 150px;
     line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -77,9 +76,9 @@ button:active {
 }
 
 a {
-    color: #5D5D7D;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 41px;
+    color: #5D5D7D;
     margin-right: 41px;
     cursor: pointer;
 }
@@ -93,14 +92,14 @@ a:hover {
 }
 
 a:active {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 header {
     margin: 24px 0 0 85px;
 }
 
-@media screen and (max-width: 900px) {     /*no final do css, insere @media, depois, proceder com o que vai mudar */
+@media (max-width: 900px) { /*na parte de responsividade, insere o media cary (@media). */
     .container-left {
         width: 124%;
         height: 50%;
@@ -148,8 +147,8 @@ header {
     }
 }
 
-@media screen and (max-width: 330px) {
+@media (max-width: 330px) {
         .container-left {
-            height: 70%;
+            height: 52%;
         }
 }

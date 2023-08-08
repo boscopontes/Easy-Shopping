@@ -9,4 +9,4 @@ Tecnologias usadas:
 
 <a href="https://shopping-easy-via-cellphone.netlify.app/">Link do site<a/>
 
-<img src=""
+<img src="https://github.com/boscopontes/Easy-Shopping/blob/main/img/tela%20figma.png?raw=true"/>
